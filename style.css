@@ -121,13 +121,19 @@ h6 {
 }
 
 main {
-    height: 700vh;
+    height: 1150vh;
+    max-height: 100000px;
+
 }
 
 footer {
-    min-height: 70vh;
+    height: 100vh;
     flex-wrap: wrap;
-    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #photos {
@@ -223,6 +229,7 @@ footer {
     grid-template-rows: repeat(16, 5vw);
     grid-gap: 5px;
     margin: auto, auto;
+    transform: translateY(-660px);
 }
 
 #v2 {
